@@ -1,0 +1,26 @@
+.table-head,.table-row{
+	height:75px;
+	background-color:#3777DE;
+	display: flex;
+	align-items: center;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 300;
+	padding-left: 50px;
+}
+.table-head>span,
+.table-row>span{
+	flex-grow: 1;
+}
+.table-row{
+	background-color: #fff;
+	color: #000;
+	margin-bottom:4px;
+}
+.table-head>span:first-child,
+.table-row>span:first-child{
+	width:20%;
+}
+.table-row>span{
+	font-size: 20px;
+}

@@ -1,0 +1,31 @@
+.header{
+	display: flex;
+	height: 99px;
+	align-items: center;
+	background-color: #fff;
+}
+.course-input{
+	width:30%;
+	height:75px;
+	background-color:#E0E0E0;
+	color:#7E7E7E;
+	border:none;
+	font-size: 30px;
+	font-weight: 300;
+	padding-left:29px;
+}
+.course-input:focus{
+	outline: none
+}
+.logo-container{
+	flex-grow:1;
+}
+.input-container{
+	flex-grow: 11;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.error{
+	color:red;
+}
